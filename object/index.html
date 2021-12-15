@@ -1,0 +1,76 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Corrida</title>
+  </head>
+
+  <body>
+    <header></header>
+    <div id="container">
+      <h1 style="color: red;">Corrida</h1>
+      <h3 style="color:  orange">Escolha um personagem e gere um carro!</h3>
+
+
+
+      <div>
+        <img width="300px;" height="150px;" src="sally.jpg" />
+        <img width="300px;" height="150px;" src="barao.jfif" />
+        <img width="300px;" height="150px;" src="vigar.jpg" />
+      </div>
+    </div>
+
+
+
+    <div id="titlesbackground">
+      <div id="titles">
+        <div style="border-right-style: solid;">
+          <p><input class="botao" type="button" onclick="makeCar2()" value="Gerar Carro" /></p>
+          <div id="edna">Edna</div>
+        </div>
+
+        <div style="border-right-style: solid;">
+          <p><input class="botao" type="button" onclick="makeCar3()" value="Gerar Carro" /></p>
+          <div id="juca">
+            <p>Juca</p>
+          </div>
+        </div>
+
+        <div>
+          <p><input class="botao" type="button" onclick="makeCar1()" value="Gerar Carro" /></p>
+          <div id="pedro">
+            <p>Pedro</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="container">
+        <h3> Escolha o Número de Voltas!</h3>
+        <div>
+          <input class="botao" type="button" onclick="corridaButton(10)" value="Corrida Rápida (10 voltas)" />
+          <input class="botao" type="button" onclick="corridaButton(70)" value="Grande Prêmio (70 voltas)" />
+          <input class="botao" type="button" onclick="corridaButton(160)" value="Enduro (160 voltas)" />
+        </div>
+
+      </div>
+      <div id="container">
+        <div style="padding-top: 10px;">
+          <input id="voltas" type="number" />
+          <input class="botao" type="button" onclick="corrida()" value="Correr" />
+        </div>
+       
+     
+
+      <div id="voltasvencidas"></div>
+      <h2 style="color: gold;" id="resultado"></h2>
+
+    </div>
+
+
+  </body>
+
+  <script src="object.js"></script>
+
+</html>

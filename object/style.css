@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(racing.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: yellow;
+  font-family: 'Racing Sans One', cursive;
+  letter-spacing: 3px;
+  position: static;
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+
+#titles {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 920px;
+  margin-left: 150px;
+  border-style: solid;
+  background-color: rgba(255, 0, 0, 0.5);
+  position: static;
+}
+
+#resultadobox {}
+
+
+
+#resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#voltasvencidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+}
+
+#graphicfooter {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.botao {
+  background-color: red;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 22px;
+  padding: 5px;
+}
+
+#voltas {
+  background-color: yellow;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 22px;
+  padding: 10px;
+}

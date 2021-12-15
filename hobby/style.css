@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+p {
+    margin: 0;
+    padding: 20px;
+}
+#header {
+        padding: 30px;
+        background: cornflowerblue;
+        text-align: center;
+        top: 0;
+        width: auto;
+      
+    }
+
+#cardbox {
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+   
+    
+
+}
+
+#leftbox {
+    width: 300px;
+    height: 450px;;
+    
+    
+
+}
+
+#name {
+    width: 100px;
+    height: 30px;
+
+}
+
+#age {
+    width: 100px;
+    height: 30px;
+
+}
+
+#state {
+    width: 100px;
+    height: 30px;
+
+}
+
+#rightbox {
+    width: 450px;
+    height: 350px;   
+    background-color: rgb(167, 118, 167);
+    flex-direction: column;
+    margin-right: 0;
+   
+   
+}
+
+
+
+#textbox {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(167, 118, 167);
+    font-size: 20px;
+  
+}
+
+#footer {
+        padding: 30px;
+        background: cornflowerblue;
+        bottom: 0;
+        position: static;
+        width: auto;
+            
+    }
