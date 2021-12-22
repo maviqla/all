@@ -23,7 +23,7 @@ p {
   padding-right: 5px;
 }
 
-#container {
+.container {
   display: flex;
   align-items: center;
   flex-direction: column;

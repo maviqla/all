@@ -5,7 +5,6 @@ let car = {
   velMinima: [0, 0],
   velMaxima: [0, 0],
   txDerrapagem: [0, 0],
-
 }
 
 //Config dos carrinhos//
@@ -37,9 +36,9 @@ function randomizeCar(min, max) {
 function makeCar1() {
   let cartype
   let chance = randomizeCar(0, 100);
-  if (chance < 60) {
+  if (chance <= 60) {
     cartype = "Popular"
-  } else if (chance < 95) {
+  } else if (chance < 96) {
     cartype = "Sport"
   } else if (chance >= 96) {
     cartype = "Super Sport"
